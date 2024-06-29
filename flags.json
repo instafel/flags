@@ -1,7 +1,15 @@
 {
   "manifest_version": 1,
   "flags": [
-    3190404853,
-    6983564593
+    "3190404853": {
+      "category": null,
+      "last_edit": "29.06.2024",
+      "locales": ["en", "tr"] 
+    },
+    "6983564593": {
+      "category": "direct",
+      "last_edit": "29.06.2024",
+      "locales": ["en"]
+    }
   ]
 }
