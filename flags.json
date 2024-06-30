@@ -1,15 +1,19 @@
 {
   "manifest_version": 1,
   "flags": [
-    "3190404853": {
-      "category": null,
+    {
+      "flag_id": 8630084490,
+      "name": "New story previews",
+      "author": "mamiiblt",
       "last_edit": "29.06.2024",
-      "locales": ["en", "tr"] 
+      "category": "stories"
     },
-    "6983564593": {
-      "category": "direct",
-      "last_edit": "29.06.2024",
-      "locales": ["en"]
+    {
+      "flag_id": 8630084490,
+      "name": "New dark theme",
+      "author": "mamiiblt",
+      "last_edit": "30.06.2024",
+      "category": "ui"
     }
   ]
 }
