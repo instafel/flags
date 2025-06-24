@@ -25,8 +25,8 @@ uncompitable_flags: # if you know that flag can be crash with these flags, just 
 | fixes          | comments       | profile        |
 | professional   | livestreams    | meta-ai        |
 
-## Before Commiting!!
+## Before Creating Pull Request
 
-You need to generate flag-contents (it's need for usability on client-side). Only run `npm install` and `npm run generate` and check logs.
+You need to generate flag-contents. Run `npm install` & `npm run generate` everytime when you changed anything in **content** folder and check logs.
 
-
+> Then don't edit anything in **list** folder and create a pull request :) 
