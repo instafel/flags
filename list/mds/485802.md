@@ -9,21 +9,24 @@ removed_in: 319.0.0.0.32
 uncompitable_flags:
   - panavision_nav3
   - example_flag
-last_edit: '2025-06-25 20:11'
+last_edit: '2025-06-25 20:15'
 ---
 
 # What is that?!
 
-Evet, flag açıklamalarını (bayrak bilgileri, nasıl kullanılacağı vs. aslında minik bir documentation gibi olacak her feature) Markdown kullanarak yazacağız. Bunu yapmak evet biraz zor ama tüm Instagram topluluklarının bu kütüphaneden faydalanacağını göz önünde bulundurmamız gerekiyor.
+Yes, we'll be writing flag descriptions (information about the flag, how to use it, etc.—basically like mini documentation for each feature) using Markdown. This may be a bit of work, but we have to consider that all Instagram communities will benefit from this library.
 
-## Markdown Hakkında
+## About Markdown
 
-Çoğu markdown özelliği aktif olarak kullanılabilir haldedir. Tek istisnai durum resim eklemedir, resim eklemek için resiminizi **imgs** klasörü içine koymalısınız. ardından dosyanın adını aşağıdaki syntax ile beraber belirtiniz
+Most Markdown features are fully supported. The only exception is image embedding. To include an image, place your image inside the **imgs** folder and reference the file using the following syntax:
 
 ```
-![Resim yüklenemezse veya bulunamazsa çıkacak metin](image_file_name.png)
+![Text to display if image is missing or cannot be loaded](image_file_name.png)
 ```
 
-## Daha fazla bilgi için
+_example image_:
+![Text to display if image is missing or cannot be loaded](test.png)
 
-[instafel/flags](https://github.com/instafel/flags) deposunu ziyat edin ve nasıl flag ekleneceğini vs. öğrenin.
+## For more information
+
+Visit the [instafel/flags](https://github.com/instafel/flags) repository to learn how to add a flag and more.
