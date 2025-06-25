@@ -1,24 +1,29 @@
 ---
 id: 485802
-category: meta-ai
+category: direct
 title: Example Flag
 desc: A example flag description
 author: mamiiblt
-added_in: null
+added_in: 315.0.0.0.12
 removed_in: 319.0.0.0.32
-uncompitable_flags: null
-last_edit: '2025-06-25 19:22'
+uncompitable_flags:
+  - panavision_nav3
+  - example_flag
+last_edit: '2025-06-25 20:11'
 ---
 
-## Hello!
+# What is that?!
 
-adwadlöwadaw
-dawlkdşawidawd
+Evet, flag açıklamalarını (bayrak bilgileri, nasıl kullanılacağı vs. aslında minik bir documentation gibi olacak her feature) Markdown kullanarak yazacağız. Bunu yapmak evet biraz zor ama tüm Instagram topluluklarının bu kütüphaneden faydalanacağını göz önünde bulundurmamız gerekiyor.
 
-# aa
+## Markdown Hakkında
 
-## aa
+Çoğu markdown özelliği aktif olarak kullanılabilir haldedir. Tek istisnai durum resim eklemedir, resim eklemek için resiminizi **imgs** klasörü içine koymalısınız. ardından dosyanın adını aşağıdaki syntax ile beraber belirtiniz
 
-### aaa
+```
+![Resim yüklenemezse veya bulunamazsa çıkacak metin](image_file_name.png)
+```
 
-> hey
+## Daha fazla bilgi için
+
+[instafel/flags](https://github.com/instafel/flags) deposunu ziyat edin ve nasıl flag ekleneceğini vs. öğrenin.
