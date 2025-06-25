@@ -15,6 +15,14 @@ uncompitable_flags: # if you know that flag can be crash with these flags, just 
     - igds_prism_launcher_config_android
 ```
 
+## Rules
+
+1. Always use git because last_edit fields automatically updated with your current commit.
+2. Inspect other content markdowns, then write your own flag markdown.
+3. Don't edit anything generated in **list** folder.
+4. Always exec `npm run generate` before creating pull request.
+5. All pull requests will be inspected, don't worry.
+
 ## Categories
 
 | Category       | Category       | Category       |
