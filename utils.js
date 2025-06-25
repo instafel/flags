@@ -36,12 +36,18 @@ function createListFiles(dataArray) {
       if (groupedArray[category] != undefined) {
         console.log(`📂 ${category} (${groupedArray[category].length} flag)`);
         const listContent = []
-        for (const item of groupedArray[category]) {
-            listContent.push({
-                f: item.frontmatter.fid,
-                t: item.frontmatter.title,
-                a: item.frontmatter.author,
-            })
+        const sortedItems = groupedArray[category].sort((a, b) => {
+          const dateA = Date.parse(a.frontmatter.last_edit);
+          const dateB = Date.parse(b.frontmatter.last_edit);
+          return dateB - dateA;
+        });
+        for (const item of sortedItems) {
+            listContent.push([
+                item.frontmatter.fid,
+                item.frontmatter.title,
+                item.frontmatter.author,
+                item.frontmatter.last_edit
+            ])
             fs.copyFileSync(
                 path.join(pathContent, item.filename),
                 path.join(pathList, category, item.frontmatter.fid + ".md"))
