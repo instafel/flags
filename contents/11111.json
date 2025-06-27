@@ -1,0 +1,19 @@
+{
+  "id": 11111,
+  "last_edit": "2025-06-27T17:26:50.624Z",
+  "category": "stories",
+  "author": "iamzainnnn",
+  "title": "Story previews in stories tray",
+  "description": "Enables story previews in stories tray",
+  "added_in": "309.0.0.0.36",
+  "removed_in": "361.0.0.0.33",
+  "used_flags": [
+    "media preview in stories tray",
+    "is enabled",
+    "is fb design enabled",
+    "is subtitle time left enabled"
+  ],
+  "screenshots": [
+    "ss2.png"
+  ]
+}
