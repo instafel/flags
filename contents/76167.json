@@ -1,0 +1,1 @@
+{"id":76167,"last_edit":"2024-10-01T10:44:00.000Z","category":"direct","added_by":"iamzainnnn","title":"Unsend option for polls","description":"Adds the ability to unsend poll messages back","added_in":"352.0.0.0.71","removed_in":null,"flags":[{"name":"igd android enable poll deletion","properties":[{"name":"enabled","value_bool":true}]}],"screenshots":["x9p5y0o35.jpeg"]}
