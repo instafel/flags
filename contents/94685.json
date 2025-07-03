@@ -1,0 +1,1 @@
+{"id":94685,"last_edit":"2025-04-21T10:47:00.000Z","category":"other","added_by":"votsz","title":"Map button in the Explore tab ","description":"Adds map button in explore tab search bar.","added_in":"305.0.0.0.107","removed_in":null,"flags":[{"name":"discovery map","properties":[{"name":"enable search button entry point","value_bool":true}]}],"screenshots":["szje5y519.jpeg"]}
