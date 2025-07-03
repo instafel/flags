@@ -1,0 +1,1 @@
+{"id":56307,"last_edit":"2025-06-25T16:49:00.000Z","category":"reels","added_by":"votsz","title":"Show duration of reels in scrubber","description":"Shows the duration of Reels in the scroll bar","added_in":"386.0.0.4.84","removed_in":null,"flags":[{"name":"iv video scrubber","properties":[{"name":"show total duration","value_bool":true}]}],"screenshots":["id49r8xgl.jpeg"]}
